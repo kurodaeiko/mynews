@@ -7,12 +7,6 @@ use App\Http\Controllers\Controller;
 
 class NewsController extends Controller
 {
-    //以下を追加
-    public function add()
-    {
-    return view('admin.new.create');
-}
-}
 
 //課題1
 //フレームワークの中のコントローラーは何にあたる部分なんですか？
@@ -30,20 +24,20 @@ class NewsController extends Controller
 //課題5
 public function add()
 {
-    return view('admin.profile.create');
+    return view('admin.news.create');
 }
   public function create()
   {
-      return redirect('admin/profile/create');
+      return redirect('admin/news/create');
   }
 
   public function edit()
   {
-      return view('admin.profile.edit');
+      return view('admin.news.edit');
   }
 
   public function update()
   {
-      return redirect('admin/profile/edit');
+      return redirect('admin/news/edit');
   }
-
+}
