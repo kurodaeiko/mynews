@@ -22,7 +22,7 @@ Route::group(['prefix' => 'admin'], function(){
 //課題3　「http://XXXXXX.jp/XXX というアクセスが来たときに、 AAAControllerのbbbというAction に渡すRoutingの設定」を書いてみてください。
 
 Route::group(['prefix' => 'XXX'], function(){
-    Route::get('news/create','XXX\AAAController@bbb');
+    Route::get(' ','AAAController@bbb');
 });
 
 //課題4　

@@ -26,3 +26,4 @@ public function update()
 {
     return redirect('admin/profile/edit');
 }
+}
